@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--Code By Webdevtrick ( https://webdevtrick.com )-->
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript To Do List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<div id="tasker" class="tasker">
+    <div class="title"><h1>To Do List</h1></div>
+    
+    <!-- div for error msg and input feild -->
+ <div id="error" class="error">Please Enter a Task</div>
+ <div id="todo-header" class="todo-header">
+ <input type="text" id="input-task" class="input-task" placeholder="Enter your task" required>
+ <button id="add-task" class="add-task"><i class="fa fa-fw fa-plus"></i>
+ </button>
+ </div>
+ <!-- div for lists -->
+ <div class="todo-lists">
+ <ul id="all-tasks">
+     
+ </ul>
+ </div>
+</div>
+ 
+<script  src="function.js"></script>
+ 
+</body>
+</html

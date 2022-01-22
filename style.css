@@ -1,0 +1,86 @@
+body {
+  background: #f1f1f1;
+  margin-top: 2rem;
+}
+/* .title{
+    display: flex;
+    justify-content:center;    
+} */
+.tasker ul,
+.tasker li,
+.tasker .error,
+.tasker button,
+.tasker input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+/* .todo-header button, .todo-lists .task button {
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+  } */
+.tasker {
+  max-width: 400px;
+  margin: 0 auto;
+  background: lightcyan;
+}
+.tasker .error {
+  display: none;
+  background: #ff4747;
+  color: #fff;
+  padding: 14px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.todo-header {
+  display: inline-flex;
+  background: #212121;
+  justify-content: space-between;
+  width: 100%;
+}
+.todo-header input,
+.todo-header button {
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  padding: 10px;
+}
+
+.todo-header button {
+  background: #00b934;
+  border-left: 1px solid #098009;
+}
+.todo-header button:hover {
+  cursor: pointer;
+  background: #5cb85c;
+}
+
+/* Iske niche ki styling java script likhne ke sath sath karte hai  */
+/* this task class is given while a new list is crated & added in js */
+.todo-lists #all-tasks .draggable-task {
+  display: flex;
+  position: relative;
+  padding: 10px 14px 10px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-between;  
+  cursor: move;    
+  margin-top: 6px; 
+  background: #fff;
+}
+
+.remove-btn {
+  opacity: 0.3;
+}
+.remove-btn:hover {
+  opacity: 1;
+  color: red;
+  cursor: pointer;  
+}
+
+.over {
+    transform: scale(1.1,1.1);
+  }
