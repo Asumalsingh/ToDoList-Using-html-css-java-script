@@ -17,10 +17,7 @@ body {
   outline: none;
   background: transparent;
 }
-/* .todo-header button, .todo-lists .task button {
-    transition: all 0.2s ease;
-    -webkit-transition: all 0.2s ease;
-  } */
+
 .tasker {
   max-width: 400px;
   margin: 0 auto;

@@ -1,0 +1,48 @@
+
+.section{
+  display: flex;
+}
+.box {
+  margin: auto;
+  width: 100%;
+}
+.container{
+    display: flex;   
+    margin: 10px;
+}
+
+.todo-header {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#add-btn {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+/* this class is given in li in show data function */
+.list {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  position: relative;
+  padding: 5px;
+  width: 100%;
+}
+
+#del-btn {
+  border: none;
+}
+#del-btn :hover {
+  color: red;
+  opacity: 1;
+  border: none;
+}
+
+

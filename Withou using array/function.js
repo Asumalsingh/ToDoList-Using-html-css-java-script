@@ -66,14 +66,6 @@ function dragDrop(e) {
   return false;
 }
 
-// function dragDrop(e){
-//   if(dragingItem != this){
-//     dragingItem = this;
-//     this = e.dataTransfer.getData("html")
-//   }
-//   return false;
-// }
-
 function dragEnd(e) {
   this.style.opacity = "1";
 }
